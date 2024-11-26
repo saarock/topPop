@@ -20,7 +20,7 @@ class TopPop {
 
 
     // main code to add the the backto top button dynamically;
-    backToTopCodes(iconOptions) {
+    backToTop(iconOptions) {
         const backToTopDiv = document.createElement("div");
 
         // adding the className to the button
