@@ -56,8 +56,11 @@ class TopPop {
         window.addEventListener("scroll", () => {
             this.handelWhenToShowTheBackToTopButton(backToTopDiv)
         });
+
+
     }
 
+    // handel efficently the button when to show or when to not ;
     handelWhenToShowTheBackToTopButton(backToTopDiv) {
         const howMuchUserScroll = document.documentElement.scrollTop;
         if (howMuchUserScroll <= 0) {
