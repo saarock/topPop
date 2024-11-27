@@ -10,7 +10,7 @@ class TopPop {
     }
 
     // backto top functionality;
-    backToTop() {
+    backToTopFun() {
         window.scrollTo({
             top: 0,
             behavior: "smooth",
@@ -47,7 +47,7 @@ class TopPop {
 
         // Add functionality to scroll to the top
         backToTopDiv.addEventListener("click", () => {
-            this.backToTop();
+            this.backToTopFun();
         });
 
         window.addEventListener("load", () => {
